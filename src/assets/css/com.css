@@ -1,0 +1,415 @@
+*{
+	font-family: "苹方"!important; 
+}
+body{
+	margin: 0;
+	background-color: #FBFBFB;
+	font-size: 14px;
+}
+h1{
+	display: block;
+    font-size:1.2em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+	display: block;
+    margin-block-start:0.3em;
+    margin-block-end:0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.main-content{
+	width: 100%;
+	height:300px;
+	overflow: hidden;
+}
+.title{
+	font-size: 14px;
+	color: #000;
+}
+.subtitle{
+	font-size: 12px;
+	color:#969799;
+}
+
+/*通用样式调整*/
+.van-hairline--bottom::after{
+	border: 0px;
+}
+[class*=van-hairline]::after{
+	border: 0px;
+}
+.van-cell:not(:last-child)::after{
+	left: 0px;
+}
+/*调整间隔*/
+.height10{
+	height: 10px;
+}
+.height20{
+	height: 20px;
+}
+.height30{
+	height: 30px;
+}
+.height40{
+	height: 40px;
+}
+.height50{
+	height: 50px;
+}
+/*面板样式*/
+.item{
+	width: 94%;
+	margin: 0px 3%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	box-shadow: 1px 2px 1px #eee,-1px -1px 1px #eee;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	border: 0px;
+}
+/*表单*/
+.detail{
+	background-color: #fff;
+}
+.detail .van-cell{
+	padding: 0px;
+	font-size: 15px;
+	line-height: 45px;
+}
+.detail .van-col{
+	line-height: 45px;
+}
+.detail .left{
+	color: #3d4145;
+	font-size: 15px;
+	font-weight: bold;
+}
+.detail .right{
+	color: #3d4145;
+	font-size: 15px;
+	height: auto;
+}
+.detail img{
+	margin-top: 10px;
+	max-width: 100%;
+}
+.detail .uploadimg{
+	height: 100px;
+}
+.detail .van-uploader{
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+.detail .van-uploader .van-icon{
+	font-size: 40px;
+	line-height: 90px;
+}
+.detail .uploadimg img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+#shareit {
+	-webkit-user-select: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+/*分页样式*/
+.van-pagination{
+	width: 100% !important;
+	margin-top: 10px
+	/*position: fixed!important;*/
+	/*bottom: 0px!important;*/
+}
+.van-pagination__item{
+	color: #333!important;
+}
+.van-pagination__item--active{
+	color: #fff!important;
+	background-color: #333!important;
+}
+.van-pagination__item:active{
+	color: #fff!important;
+	background-color: #333!important;
+}
+/*轮播图样式*/
+.van-swipe__indicator--active{
+	background-color: #333!important;
+}
+
+/*商品卡片*/
+.van-card{
+	padding: 10px 15px 10px 115px!important;
+}
+.van-card__content{
+	height: 60px
+}
+.van-card__footer .van-icon{
+	font-size: 15px;
+}
+/*地址栏*/
+.dladdress{
+	padding: 10px 15px;
+}
+.dladdress .tishi{
+	line-height: 40px;
+}
+.dladdress .van-cell__title{
+	margin-top: 0px;
+	font-size: 14px;
+}
+.dladdress .van-icon{
+	line-height: 40px;
+	font-size: 20px;
+	color: #333;
+}
+.dladdress .van-cell__left-icon{
+	line-height: 35px;
+	font-size: 30px;
+}
+.dladdress .tel{
+	float: right;
+	margin-right: 5px;
+}
+.dladdress .address{
+	color: #666;
+}
+.conten{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding:0px;
+}
+/*color*/
+.main-color{
+	background-color:#000;
+}
+.main-bgcolor{
+	background-color:#FBFBFB;
+}
+.bgcolor-w{
+	background-color:white !important;
+}
+.bgcolor-r{
+	background-color:red !important;
+}
+.bgcolor-grayfa{
+	background-color:#fafafa !important;
+}
+.color-red{
+	color: red;
+}
+.color-green{
+	color: green;
+}
+.color-c1{
+	color: #c1c1c1;
+}
+.color-title{
+	color: #000;
+}
+.color-remark{
+	color: #c1c1c1;
+}
+/*font*/
+.font-s12
+{
+	font-size: 12px;
+}
+.font-s15
+{
+	font-size: 15px;
+}
+.font-s20
+{
+	font-size: 20px;
+}
+/*margin*/
+.marg-5
+{
+	margin: 5px;
+}
+.marg-10
+{
+	margin: 10px;
+}
+.marg-top10
+{
+	margin-top: 10px;
+}
+.marg-20
+{
+	margin: 20px;
+}
+.marg-l10
+{
+	margin-left:10px;
+}
+.marg-10-10-0-0
+{
+	margin:10px 10px 0 0;
+}
+.marg-10-10-10-0
+{
+	margin:10px 10px 10px 0px;
+}
+/*padding*/
+.pad-5{
+	padding: 5px;
+}
+.pad-0-5{
+	padding:0 5px;
+}
+.pad-5-0{
+	padding:5px 0;
+}
+.pad-5-0-10-0{
+	padding:5px 0 10px 0;
+}
+.pad-10-10-0-10{
+	padding:10px 10px 0px 10px;
+}
+.pad-0-10-10-10{
+	padding:0px 10px 10px 10px;
+}
+.pad-10-15-0-15{
+	padding:10px 15px 0px 15px;
+}
+.pad-r-5{
+	padding:0 5px 0 0;
+}
+
+.pad-10{
+	padding: 10px;
+}
+.pad-0-10{
+	padding:0 10px;
+}
+.pad-10-0{
+	padding:10px 0;
+}
+.pad-r-10{
+	padding:0 10px 0 0;
+}
+.pad-bt-10{
+	padding:0 0 10px 0;
+}
+
+.pad-15{
+	padding: 15px;
+}
+.pad-15-10{
+	padding: 15px 10px;
+}
+.pad-20{
+	padding: 15px;
+}
+/*box-shadow*/
+.fw-600{
+	font-weight:600 !important;
+}
+.fw-800{
+	font-weight:800 !important;
+}
+/*box-shadow*/
+
+.box-sd-0-0-5{ 
+   -webkit-box-shadow: 0px 0px 5px #EAEAEA; 
+   -moz-box-shadow: 0px 0px 5px #EAEAEA; 
+   box-shadow: 0px 0px 5px #EAEAEA;
+}
+
+
+.swipe-img-h180{
+	width: 100%;
+	height: 180px;
+}
+.swipe-img-h230{
+	width: 100%;
+	height: 230px;
+}
+.swipe-img-h250{
+	width: 100%;
+	height: 250px;
+}
+.price-line{
+	text-decoration:line-through;
+}  
+/*search*/
+.search{
+	
+}
+.van-tabs__line {
+	background: #000;
+}
+.van-tab--active {
+    color: #323233;
+    font-weight:700;
+} 
+
+.lo-ellipsis
+{
+	margin:5px 0;
+	color: #7d7e80;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+.lo-badge {
+    display: inline-block;
+    padding: 3px 8px 3px 8px;
+    font-size:12px;
+    line-height:16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius:10px;
+}
+/*flex-layout*/
+.lo-flex{
+	display:flex;
+	display:-webkit-flex; /* Safari */
+}
+
+.lo-hbt{
+	display:flex;
+	display:-webkit-flex; /* Safari */
+	flex-direction: row;
+	flex-wrap: nowrap; /* wrap */
+	justify-content:space-between;
+	align-content:center;
+}
+
+.lo-wrap{
+	flex-wrap:wrap;
+}
+.lo-hc{
+	justify-content:center;
+}
+.lo-hr{
+	justify-content:flex-end;
+}
+.lo-vc{
+	align-items:center;
+}
+.lo-vb{
+	align-items:flex-end;
+}
